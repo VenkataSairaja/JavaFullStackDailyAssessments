@@ -1,0 +1,7 @@
+<bean id="userService" class="com.example.UserService">
+    <constructor-arg ref="userDAO"/>
+</bean>
+
+<bean id="userDAO" class="com.example.UserDAO">
+    <!-- userDAO properties and dependencies can be defined here -->
+</bean>
